@@ -1,0 +1,15 @@
+{
+    "plugins": [
+        "addcssjs"
+    ],
+    "pluginsConfig": {
+        "addcssjs": {
+            "css": [
+                "./static/style.css"
+            ],
+            "js": [
+                "./static/tips.js"
+            ]
+        }
+    }
+}
