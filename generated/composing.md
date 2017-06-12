@@ -34,8 +34,8 @@
             (<span class="k">fun</span> (<span class="i">user</span>,<span class="i">pwd</span>) <span class="k">-&gt;</span> <span class="i">user</span> <span class="o">=</span> <span class="s">&quot;foo&quot;</span> <span class="o">&amp;&amp;</span> <span class="i">pwd</span> <span class="o">=</span> <span class="s">&quot;bar&quot;</span>) 
             (<span onmouseout="hideTip(event, 'fs1', 27)" onmouseover="showTip(event, 'fs1', 27)" class="i">choose</span> [
                 <span onmouseout="hideTip(event, 'fs9', 28)" onmouseover="showTip(event, 'fs9', 28)" class="i">GET</span> <span class="o">&gt;</span><span class="o">=&gt;</span> <span onmouseout="hideTip(event, 'fs8', 29)" onmouseover="showTip(event, 'fs8', 29)" class="i">path</span> <span class="s">&quot;/whereami&quot;</span> <span class="o">&gt;</span><span class="o">=&gt;</span> <span onmouseout="hideTip(event, 'fs11', 30)" onmouseover="showTip(event, 'fs11', 30)" class="i">OK</span> (<span onmouseout="hideTip(event, 'fs7', 31)" onmouseover="showTip(event, 'fs7', 31)" class="i">sprintf</span> <span class="s">&quot;Hello authenticated person &quot;</span>)
-                <span onmouseout="hideTip(event, 'fs9', 32)" onmouseover="showTip(event, 'fs9', 32)" class="i">GET</span> <span class="o">&gt;</span><span class="o">=&gt;</span> <span onmouseout="hideTip(event, 'fs8', 33)" onmouseover="showTip(event, 'fs8', 33)" class="i">path</span> <span class="s">&quot;/&quot;</span> <span class="o">&gt;</span><span class="o">=&gt;</span> <span class="i">dirHome</span>
-                <span onmouseout="hideTip(event, 'fs9', 34)" onmouseover="showTip(event, 'fs9', 34)" class="i">GET</span> <span class="o">&gt;</span><span class="o">=&gt;</span> <span class="i">browseHome</span> <span class="c">// Serves file if exists </span>
+                <span onmouseout="hideTip(event, 'fs9', 32)" onmouseover="showTip(event, 'fs9', 32)" class="i">GET</span> <span class="o">&gt;</span><span class="o">=&gt;</span> <span onmouseout="hideTip(event, 'fs8', 33)" onmouseover="showTip(event, 'fs8', 33)" class="i">path</span> <span class="s">&quot;/&quot;</span> <span class="o">&gt;</span><span class="o">=&gt;</span> <span onmouseout="hideTip(event, 'fs18', 34)" onmouseover="showTip(event, 'fs18', 34)" class="i">dirHome</span>
+                <span onmouseout="hideTip(event, 'fs9', 35)" onmouseover="showTip(event, 'fs9', 35)" class="i">GET</span> <span class="o">&gt;</span><span class="o">=&gt;</span> <span onmouseout="hideTip(event, 'fs19', 36)" onmouseover="showTip(event, 'fs19', 36)" class="i">browseHome</span> <span class="c">// Serves file if exists </span>
             ])]
 </div></pre>
 
@@ -74,3 +74,5 @@ option).</p>
 <div class="tip" id="fs15">val NOT_FOUND : body:string -&gt; WebPart<br /><br />Full name: Suave.RequestErrors.NOT_FOUND</div>
 <div class="tip" id="fs16">module Authentication<br /><br />from Suave</div>
 <div class="tip" id="fs17">val authenticateBasic : f:(string * string -&gt; bool) -&gt; protectedPart:WebPart -&gt; WebPart<br /><br />Full name: Suave.Authentication.authenticateBasic</div>
+<div class="tip" id="fs18">val dirHome : WebPart<br /><br />Full name: Suave.Files.dirHome</div>
+<div class="tip" id="fs19">val browseHome : WebPart<br /><br />Full name: Suave.Files.browseHome</div>
