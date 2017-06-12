@@ -13,7 +13,8 @@ let prependSuaveReference source =
     open Suave.Filters
     open Suave.Operators
     open Suave.Successful
-    
+    open Suave.Files
+
   """ + source
 
 let replace (old : string) newTxt (text : string) =
